@@ -1,0 +1,44 @@
+Fix-DateTime version 0.02
+=========================
+
+Module to apply monkey patch in DateTime class
+
+DEMO
+
+$ cd ./examples ; demo.pl     # if installed  
+or
+$ perl -I lib examples/demo.pl
+
+DOCUMENTATION
+
+See POD in Fix::DateTime
+
+$ perldoc Fix::DateTime        # if installed
+or
+$ perldoc lib/Fix/DateTime.pm
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  DateTime (tested with 0.78)
+  List::Util (tested with 1.23 - just 'first' is needed)
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2013 by Tiago Peczenyj
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.10.0 or,
+at your option, any later version of Perl 5 you may have available.
+
+

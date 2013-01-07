@@ -1,0 +1,9 @@
+Revision history for Perl extension Fix::DateTime.
+
+0.01  Sat Jan  5 08:03:22 2013
+	- preliminar version, with basic monkey patch
+
+0.02  Sat Jan  5 08:55:00 2013
+	- add capability of work with enable/disable and change the default time zone
+	- add small example: demo.pl	
+
