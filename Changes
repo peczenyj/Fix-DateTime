@@ -5,5 +5,8 @@ Revision history for Perl extension Fix::DateTime.
 
 0.02  Sat Jan  5 08:55:00 2013
 	- add capability of work with enable/disable and change the default time zone
-	- add small example: demo.pl	
+	- add small example: demo.pl
+	
+0.03  Wed Jan  9 21:51:00 2013
+	- add 'use DateTime' to avoid problems with BEGIN section of DateTime
 
